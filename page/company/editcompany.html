@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="../../lib/layui-v2.5.5/css/layui.css" media="all">
+  <link rel="stylesheet" href="../../css/public.css" media="all">
+</head>
+<body>
+<form class="layui-form layuimini-form" action="">
+  <div class="layui-form-item ">
+    <label class="layui-form-label required">企业名称</label>
+    <div class="layui-input-block">
+      <input id="ename" type="text" name="cno"  lay-verify="title" autocomplete="off" placeholder="请输入企业名称" class="layui-input">
+    </div>
+  </div>
+
+  <div class="layui-form-item">
+    <label class="layui-form-label">总部所在城市</label>
+    <div class="layui-input-block">
+      <input id="city" type="text" name="city" lay-verify="title" autocomplete="off" placeholder="请输入总部所在城市" class="layui-input">
+    </div>
+  </div>
+  <div class="layui-form-item">
+    <label class="layui-form-label">总部详细地址</label>
+    <div class="layui-input-block">
+      <input id="address" type="text" name="address" lay-verify="title" autocomplete="off" placeholder="请输入总部详细地址" class="layui-input">
+    </div>
+  </div>
+  <div class="layui-form-item">
+    <label class="layui-form-label">企业所属行业</label>
+    <div class="layui-input-block">
+      <input id="industry" type="text" name="industry" lay-verify="title" autocomplete="off" placeholder="请输入企业所属行业" class="layui-input">
+    </div>
+  </div>
+  <div class="layui-form-item">
+    <label class="layui-form-label">招聘负责人</label>
+    <div class="layui-input-block">
+      <input id="recruitment manager" type="text" name="recruitment manager" lay-verify="title" autocomplete="off" placeholder="请输入招聘负责人" class="layui-input">
+    </div>
+  </div>
+  <div class="layui-form-item">
+    <label class="layui-form-label">负责人电话</label>
+    <div class="layui-input-block">
+      <input id="managerTel" type="text" name="managerTel" lay-verify="title" autocomplete="off" placeholder="请输入负责人电话" class="layui-input">
+    </div>
+  </div>
+  <div class="layui-form-item">
+    <label class="layui-form-label">主要招聘岗位</label>
+    <div class="layui-input-block">
+      <input id="job" type="text" name="job" lay-verify="title" autocomplete="off" placeholder="请输入主要招聘岗位" class="layui-input">
+    </div>
+  </div>
+  <div class="layui-form-item">
+    <label class="layui-form-label">开始合作时间</label>
+    <div class="layui-input-block">
+      <input type="text" name="date" id="date1" autocomplete="off" class="layui-input" placeholder="请选择开始合作时间" readonly>
+    </div>
+  </div>
+  <div class="layui-form-item">
+    <div class="layui-input-block">
+      <button class="layui-btn" lay-submit="" lay-filter="demo1">提交企业合作信息</button>
+      <button type="reset" class="layui-btn layui-btn-primary">重置信息</button>
+    </div>
+  </div>
+</form>
+</body>
+</html>
