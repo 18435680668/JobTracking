@@ -1,0 +1,107 @@
+{
+  "code": 0,
+  "msg": "",
+  "count": 10,
+  "data": [
+    {
+      "id": 1,
+      "ename":"北京柯蓝科技有限公司",
+      "city": "北京",
+      "industry": "计算机金融",
+      "recruitment manager": "刘海海",
+      "managerTel": "15012312312",
+      "cooperation status": "合作中",
+      "recruitment job": "爪哇"
+    },
+    {
+      "id": 2,
+      "ename":"北京柯蓝科技有限公司",
+      "city": "北京",
+      "industry": "计算机金融",
+      "recruitment manager": "刘海海",
+      "managerTel": "15012312312",
+      "cooperation status": "合作中",
+      "recruitment job": "爪哇"
+    },
+    {
+      "id": 3,
+      "ename":"北京柯蓝科技有限公司",
+      "city": "北京",
+      "industry": "计算机金融",
+      "recruitment manager": "刘海海",
+      "managerTel": "15012312312",
+      "cooperation status": "合作中",
+      "recruitment job": "爪哇"
+    },
+    {
+      "id": 4,
+      "ename":"北京柯蓝科技有限公司",
+      "city": "北京",
+      "industry": "计算机金融",
+      "recruitment manager": "刘海海",
+      "managerTel": "15012312312",
+      "cooperation status": "合作中",
+      "recruitment job": "爪哇"
+    },
+    {
+      "id": 5,
+      "ename":"北京柯蓝科技有限公司",
+      "city": "北京",
+      "industry": "计算机金融",
+      "recruitment manager": "刘海海",
+      "managerTel": "15012312312",
+      "cooperation status": "合作中",
+      "recruitment job": "爪哇"
+    },
+    {
+      "id": 6,
+      "ename":"北京柯蓝科技有限公司",
+      "city": "北京",
+      "industry": "计算机金融",
+      "recruitment manager": "刘海海",
+      "managerTel": "15012312312",
+      "cooperation status": "合作中",
+      "recruitment job": "爪哇"
+    },{
+      "id": 7,
+      "ename":"北京柯蓝科技有限公司",
+      "city": "北京",
+      "industry": "计算机金融",
+      "recruitment manager": "刘海海",
+      "managerTel": "15012312312",
+      "cooperation status": "合作中",
+      "recruitment job": "爪哇"
+    },{
+      "id": 8,
+      "ename":"北京柯蓝科技有限公司",
+      "city": "北京",
+      "industry": "计算机金融",
+      "recruitment manager": "刘海海",
+      "managerTel": "15012312312",
+      "cooperation status": "合作中",
+      "recruitment job": "爪哇"
+    },{
+      "id": 9,
+      "ename":"北京柯蓝科技有限公司",
+      "city": "北京",
+      "industry": "计算机金融",
+      "recruitment manager": "刘海海",
+      "managerTel": "15012312312",
+      "cooperation status": "合作中",
+      "recruitment job": "爪哇"
+    },
+    {
+      "id": 10,
+      "ename":"北京柯蓝科技有限公司",
+      "city": "北京",
+      "industry": "计算机金融",
+      "recruitment manager": "刘海海",
+      "managerTel": "15012312312",
+      "cooperation status": "合作中",
+      "recruitment job": "爪哇"
+    }
+
+
+
+  ]
+}

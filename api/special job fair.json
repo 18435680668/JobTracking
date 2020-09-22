@@ -1,0 +1,17 @@
+{
+  "code": 0,
+  "msg": "",
+  "count": 10,
+  "data": [
+    {
+      "id": 1,
+      "ename":"北京柯蓝科技有限公司",
+      "recruitment manager": "王五",
+      "school manager": "王王",
+      "start time": "2020-09-01",
+      "place": "教室203"
+    }
+
+
+  ]
+}
