@@ -95,6 +95,31 @@
         }
       ]
     }
-
+{
+      "title": "就业指导管理",
+      "icon": "fa fa-user",
+      "href": "",
+      "target": "_self",
+      "child": [
+        {
+          "title": "就业指导添加",
+          "href": "page/employment guidence management/add employment guidence.html",
+          "icon": "fa fa-plus-square-o",
+          "target": "_self"
+        },
+        {
+          "title": "就业指导维护",
+          "href": "page/employment guidence management/employment guidence and maintenance.html",
+          "icon": "fa fa-search-plus",
+          "target": "_self"
+        },
+        {
+          "title": "就业指导类型管理",
+          "href": "page/employment guidence management/employment guidence type.html",
+          "icon": "fa fa-search-plus",
+          "target": "_self"
+        }
+      ]
+    }
   ]
 }
