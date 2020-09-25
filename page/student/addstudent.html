@@ -18,29 +18,29 @@
       <legend>添加学生</legend>
     </fieldset>
 
-    <form class="layui-form" action="">
+    <form class="layui-form layuimini-form" action="">
       <div class="layui-form-item">
         <label class="layui-form-label">学号</label>
-        <div class="layui-input-inline">
+        <div class="layui-input-block">
           <input id="sno" type="text" name="sname" lay-verify="title" autocomplete="off" placeholder="请输入学号" class="layui-input">
         </div>
       </div>
 
       <div class="layui-form-item">
         <label class="layui-form-label">学生姓名</label>
-        <div class="layui-input-inline">
+        <div class="layui-input-block">
           <input id="sname" type="text" name="sname" lay-verify="title" autocomplete="off" placeholder="请输入学生姓名" class="layui-input">
         </div>
       </div>
 
       <div class="layui-form-item">
         <label class="layui-form-label">出生日期</label>
-        <div class="layui-input-inline">
+        <div class="layui-input-block">
           <input type="text" name="date" id="date1" autocomplete="off" class="layui-input" placeholder="请选择出生日期" readonly>
         </div>
       </div>
 
-      <div class="layui-form-item">
+      <div class="layui-form-item ">
 <!--      <label class="layui-form-label">籍贯</label>-->
 <!--      <div class="layui-input-block">-->
 <!--        <input id="Nativeplace" type="text" name="Nativeplace" lay-verify="title" autocomplete="off" placeholder="请输入籍贯" class="layui-input">-->
@@ -51,7 +51,7 @@
 <!--              省市县区三级联动下拉选择器使用开源项目：layarea<br>-->
 <!--              <a href="https://github.com/fesiong/layarea" target="_blank" class="layui-btn layui-btn-danger">layarea</a>-->
 <!--            </blockquote>-->
-            <form class="layui-form" action="" style="padding:20px;">
+            <form class="layui-form layuimini-form" action="" style="padding:20px;">
               <div class="layui-form-item" id="area-picker">
                 <div class="layui-form-label">籍贯</div>
                 <div class="layui-input-inline" style="width: 200px;">
@@ -74,29 +74,30 @@
           </div>
         </div>
     </div>
+      <form class="layui-form layuimini-form" action="">
       <div class="layui-form-item">
         <label class="layui-form-label">QQ</label>
-        <div class="layui-input-inline">
+        <div class="layui-input-block">
           <input id="QQ" type="text" name="QQ" lay-verify="title" autocomplete="off" placeholder="请输入QQ" class="layui-input">
         </div>
       </div>
       <div class="layui-form-item">
         <label class="layui-form-label">微信</label>
-        <div class="layui-input-inline">
+        <div class="layui-input-block">
           <input id="WE" type="text" name="微信" lay-verify="title" autocomplete="off" placeholder="请输入微信" class="layui-input">
         </div>
       </div>
 
       <div class="layui-form-item">
         <label class="layui-form-label">联系方式</label>
-        <div class="layui-input-inline">
+        <div class="layui-input-block">
           <input type="tel" name="Phone" lay-verify="required|phone" autocomplete="off" class="layui-input" placeholder="请输入联系方式">
         </div>
       </div>
 
       <div class="layui-form-item layui-form-text">
         <label class="layui-form-label">备注</label>
-        <div class="layui-input-inline">
+        <div class="layui-input-block">
           <textarea placeholder="请输入备注" class="layui-textarea"></textarea>
         </div>
       </div>
@@ -107,6 +108,7 @@
           <button type="reset" class="layui-btn layui-btn-primary">重置信息</button>
         </div>
       </div>
+      </form>
     </form>
 
   </div>
